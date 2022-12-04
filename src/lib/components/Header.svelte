@@ -2,7 +2,7 @@
 	<nav>
 		<div class="flexheader">
 			<a href="/">
-				<img class="round small" alt="logo of philipscheidl.com" src="logo.jpg" />
+				<img class="round small" alt="logo of philipscheidl.com" src="/logo.jpg" />
 			</a>
 		</div>
 
