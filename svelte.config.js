@@ -4,6 +4,7 @@ import sveltePreprocess from 'svelte-preprocess'
 import autoprefixer from 'autoprefixer'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
+import vercel from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -35,7 +36,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
+		adapter: vercel(),
 	}
 };
 
