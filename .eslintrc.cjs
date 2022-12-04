@@ -7,9 +7,10 @@ module.exports = {
 		sourceType: 'module',
 		ecmaVersion: 2020
 	},
+	"processor": "svelte3/svelte3",
 	env: {
 		browser: true,
 		es2017: true,
 		node: true
-	}
+	},
 };
