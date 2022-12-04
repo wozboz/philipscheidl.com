@@ -1,10 +1,9 @@
-import adapter from '@sveltejs/adapter-static'
 import { mdsvex } from 'mdsvex'
 import sveltePreprocess from 'svelte-preprocess'
 import autoprefixer from 'autoprefixer'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
-import vercel from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -36,7 +35,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: vercel(),
+		adapter: adapter(),
 	}
 };
 
