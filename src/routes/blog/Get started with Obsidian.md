@@ -54,7 +54,7 @@ The next step would be to get some templates to use with obsidian, for example f
 
 Now, let's open up the settings in the bottom left and go over two points that I have found useful. 
 
-<Image src="settings.JPG" width="500" alt="Picture of Obsidian settings" />
+<Image src="settings.jpg" width="500" alt="Picture of Obsidian settings" />
 
 In the Files & Links settings, I have set deleted notes to go into the trash of obsidian. I prefer this because it gives me a central point for deleted notes, instead of having them mixed in with other things I delete.
 
