@@ -34,8 +34,8 @@ const config = {
 			],
 		}),
 		imagePreprocessor({
-			inputDir: "./static/blog",
-			outputDir: "./static/blog/optimized",
+			inputDir: "static/blog",
+			outputDir: "static/blog/optimized",
 			webp: true,
 			avif: true,
 		}),
