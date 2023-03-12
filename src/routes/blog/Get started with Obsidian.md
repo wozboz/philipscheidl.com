@@ -24,7 +24,7 @@ Obsidian is a note taking app, which quite recently reached its first official s
 Obsidian stores its data in so-called vaults, which are basically main folders for a collection of notes. Theses notes have a system of tags and links so that you can get your notes linked together and potentially create new ideas based on that. The program draws a graph with these tags, which can get pretty interesting, especially when you have more notes in your vault. It has a mobile app as well, which is great for jotting down thoughts on the go. I personally sync it through iCloud and it works perfectly, even though I have read that others have had problems with it. I have also used iCloud to sync to all other devices (e.g. my windows desktop PC), so that I have access when I need it.
 As mentioned, Obsidian is an open platform, so there is a lot of developer activity around it. There are integrations for lots of other tools, for example Todoist or Readwise. The catalogue is huge, at the time of this blogpost, it lists 847 different plugins.
 
-<Image src="Obsidian_Plugins.JPG" width="500" alt="Picture of the number of Obsidian Plugins, sitting at 847" />
+<Image src="Obsidian_Plugins.jpg" width="500" alt="Picture of the number of Obsidian Plugins, sitting at 847" />
 
 My absolute favorite thing about Obsidian is how I can search for things and quickly find them. I basically use it as an extension of my brain. I try (and do not always succeed) to note everything down that may be useful, for example some information out of a YouTube video. Work-processes that I do not use often will also get noted down. Since using Obsidian, my research time for things like these is now considerably shorter.
 
