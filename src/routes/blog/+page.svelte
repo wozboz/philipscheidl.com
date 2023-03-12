@@ -15,7 +15,7 @@
 
 	<div class="flex blogpostoverview">
 		{#each data.posts as post}
-		<Blogpostcard posttitle={post.meta.title} postdate={post.meta.date} postlink={post.path}/>
+		<Blogpostcard posttitle={post.meta.title} postdate={post.meta.date} postlink={post.path} postdescription={post.meta.postdescription}/>
 		{/each}
 	</div>
 </div>
@@ -26,5 +26,4 @@
 		color: var(--grey);
 		text-align: center;
 	}
-
 </style>

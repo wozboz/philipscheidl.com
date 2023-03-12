@@ -3,7 +3,9 @@
 	import Footer from '../lib/components/Footer.svelte';
 	import '$lib/styles/app.css';
 	import '$lib/styles/style.scss';
+	import '$lib/styles/codehighlighting.css';
 	import { fade } from 'svelte/transition';
+	import "@fontsource/roboto";
 	export let data;
 </script>
 

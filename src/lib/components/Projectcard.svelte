@@ -2,6 +2,7 @@
     export let projecttitle = "Placeholdertitle";
     export let projectdate="01.01.01";
     export let projectlink="#"
+    export let projectdescription="Description goes here"
 </script>
 
 <div class="blogpostcard">
@@ -9,7 +10,7 @@
     <div class="blogcontentcontainer">
         <h1>{projecttitle}</h1>
         <h2>{projectdate}</h2>
-        <p>Testplaceholderstuff where we have written something and now want it to be shown as a summary of the blogpost or as a teaser. We'll see how we will make that work.</p>
+        <p>{projectdescription}</p>
         <h3 class="hovereffect readmore"><a class="disable" href={projectlink}>Read More</a></h3>
     </div>
 </div>

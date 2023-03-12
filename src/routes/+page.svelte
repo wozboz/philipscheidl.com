@@ -26,13 +26,13 @@
 	<h1 class="hpheadline">Blogposts</h1>
 	<div class="flex blogpostoverview">
 		{#each data.posts as post}
-				<Blogpostcard posttitle={post.meta.title} postdate={post.meta.date} postlink={post.path}/>
+				<Blogpostcard posttitle={post.meta.title} postdate={post.meta.date} postlink={post.path} postdescription={post.meta.postdescription}/>
 		{/each}
 	</div>
 	<h1 class="hpheadline">Projects</h1>
 	<div class="flex blogpostoverview">
 		{#each data.projects as project}
-			<Projectcard projecttitle={project.meta.title} projectdate={project.meta.date} projectlink={project.path} />
+			<Projectcard projecttitle={project.meta.title} projectdate={project.meta.date} projectlink={project.path} projectdescription={project.meta.projectdescription}/>
 		{/each}
 	</div>
 </div>

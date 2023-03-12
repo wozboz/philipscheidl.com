@@ -3,7 +3,8 @@ import sveltePreprocess from 'svelte-preprocess'
 import autoprefixer from 'autoprefixer'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-auto'
+import { imagePreprocessor } from 'svimg'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -32,11 +33,16 @@ const config = {
 				rehypeAutolinkHeadings,
 			],
 		}),
+		imagePreprocessor({
+			inputDir: "static/blog",
+			outputDir: "static/blog/optimized",
+			webp: true,
+			avif: true,
+		}),
 	],
-
 	kit: {
 		adapter: adapter(),
-	}
+	},
 };
 
 export default config;
