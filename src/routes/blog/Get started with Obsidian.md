@@ -30,7 +30,7 @@ My absolute favorite thing about Obsidian is how I can search for things and qui
 
 ## Usage inspiration (what do I do)
 
-Maybe you have read that first few paragraphs and thought: "Why would I need this?". To give you some inspiration, here are some of the things I do with Obsidian in my personal and work life:
+Maybe you have read the first few paragraphs and thought: "Why would I need this?". To give you some inspiration, here are some of the things I do with Obsidian in my personal and work life:
 
 - Weekly Reviews
 - Monthly Reviews
