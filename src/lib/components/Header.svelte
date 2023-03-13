@@ -11,7 +11,7 @@
 				<a href="/blog">Blog</a>
 			</li>
 			<li>
-				<a href="/about">Projects</a>
+				<a href="/projects">Projects</a>
 			</li>
 		</ul>
 	</nav>

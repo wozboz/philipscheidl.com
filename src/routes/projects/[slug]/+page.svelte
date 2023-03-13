@@ -9,6 +9,12 @@
   <div class="special-spacer special-layer"></div>
   <article class="blogpost">
     <h1>{ data.title }</h1>
-    <p>Published: {data.date}</p>
+    <p class="date">Published: {data.date}</p>
     <svelte:component this={data.content} />
   </article>
+
+  <style>
+    .blogpost {
+      max-width: 66%;
+    }
+  </style>
