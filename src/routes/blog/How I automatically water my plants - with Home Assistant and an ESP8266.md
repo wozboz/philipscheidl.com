@@ -7,6 +7,8 @@ categories:
 ---
 <script>import Image from "svimg";</script>
 
+<meta name="description" content="A blog post about how to create your own garden irrigiation system to automatically water your plants, based on Home Assistant and an ESP8266">
+
 My girlfriend and I had a 16 day vacation coming up, and I stood in front of a problem: what do I do with the plants on our balcony? You could either bother someone with the task of watering them at least once daily - or you could automate it. That second thought spoke much more to my inner nerd, and it seemed like a good project to take on. Of course, I could have gone the easy route and just bought some pre-built system, but they lacked a few things that were essential to me:
 - Integration with Home Assistant
 - Vendor-agnostic, meaning I could repair it myself

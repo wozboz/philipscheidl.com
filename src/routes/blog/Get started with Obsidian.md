@@ -7,6 +7,7 @@ categories:
     - "Obsidian"
 ---
 <script>import Image from "svimg";</script>
+<meta name="description" content="A blog post about the note-taking app Obsidian and how to get started using it.">
 
 <Image src="obsidian_titleview.jpg" width="500" alt="Image of an Obsidian Vault and a Graph representation" />
 

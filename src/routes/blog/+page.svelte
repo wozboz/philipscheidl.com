@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>Blog - philipscheidl.com</title>
+	<meta name="description" content="An overview of all the blog posts available on philipscheidl.com.">
 </svelte:head>
 
 <Sidebar />

@@ -6,6 +6,7 @@
 
 <svelte:head>
 	<title>Projects - philipscheidl.com</title>
+	<meta name="description" content="Overview page of all projects that Philip has been a part of.">
 </svelte:head>
 
 <Sidebar />

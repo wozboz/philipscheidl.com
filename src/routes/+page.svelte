@@ -8,6 +8,8 @@
 
 <svelte:head>
 	<title>Home - philipscheidl.com</title>
+	<meta name="description" content="Home page with an overview of all the 
+									blog posts and projects available on philipscheidl.com">
 </svelte:head>
 
 <div bind:clientHeight={y}>
