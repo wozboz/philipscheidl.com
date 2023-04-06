@@ -5,6 +5,9 @@
 	import '$lib/styles/style.scss';
 	import '$lib/styles/codehighlighting.css';
 	import { fade } from 'svelte/transition';
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+	inject({ mode: dev ? 'development' : 'production' });
 	import "@fontsource/roboto";
 	export let data;
 </script>
