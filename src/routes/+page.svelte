@@ -6,16 +6,16 @@
 	let y;
 </script>
 
+
 <svelte:head>
 	<title>Home - philipscheidl.com</title>
-	<meta name="description" content="Home page with an overview of all the 
-									blog posts and projects available on philipscheidl.com">
+	<meta name="description" content="Blogposts about all kind ofs things - Home Automation, Programming, and much more.">
 </svelte:head>
 
 <div bind:clientHeight={y}>
 	<div class="flex welcomediv">
 		<Sidebar y={y}/>
-		<h1>Hi, I'm <span class="nameanimation">Philip.</span></h1>
+		<h2>Hi, I'm <span class="nameanimation">Philip.</span></h2>
 		<br />
 		<img class="round drawing" alt="drawing of philip" src="philip_large.jpg" />
 		<br />
@@ -23,18 +23,19 @@
 	</div>
 	<div class="spacer layer"></div>
 	<div class="flex claim">
-		<h1 class="flexboxtitle">This is my personal website, where I write about my projects and anything else I feel like writing about</h1>
+		<h2 class="flexboxtitle">This is my personal website, where I write about my projects and anything else I feel like writing about</h2>
 	</div>
-	<h1 class="hpheadline">Blogposts</h1>
+	<h2 class="hpheadline">Blogposts</h2>
 	<div class="flex blogpostoverview">
 		{#each data.posts as post}
 				<Blogpostcard posttitle={post.meta.title} postdate={post.meta.date} postlink={post.path} postdescription={post.meta.postdescription}/>
 		{/each}
 	</div>
-	<h1 class="hpheadline">Projects</h1>
+	<h2 class="hpheadline">Projects</h2>
 	<div class="flex blogpostoverview">
 		{#each data.projects as project}
 			<Projectcard projecttitle={project.meta.title} projectdate={project.meta.date} projectlink={project.path} projectdescription={project.meta.projectdescription}/>
 		{/each}
 	</div>
 </div>
+

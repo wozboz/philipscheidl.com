@@ -12,6 +12,12 @@
 	export let data;
 </script>
 
+<style>
+	main {
+		font-family: "Roboto", sans-serif;
+	}
+</style>
+
 <div class="homepagecontainer">
 		<Header />
 		{#key data.currentRoute}
