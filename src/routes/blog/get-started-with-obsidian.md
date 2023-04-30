@@ -1,5 +1,5 @@
 ---
-title: The only Note-Taking App you will ever need - Get started with Obsidian
+title: Get started with Obsidian - Obsidian Introduction
 date: "2023-02-18"
 postdescription: "If you are looking for an introduction to the note-taking App Obsidian, look no further. Read this quick setup guide and get started asap."
 categories:
@@ -7,17 +7,17 @@ categories:
     - "Obsidian"
 ---
 <script>import Image from "svimg";</script>
-<meta name="description" content="A blog post about the note-taking app Obsidian and how to get started using it.">
+<meta name="description" content="An Obsidian introduction and guide on how to get started using it.">
 
 <Image src="obsidian_titleview.jpg" width="500" alt="Image of an Obsidian Vault and a Graph representation" />
 
 I have been reading quite a lot of books for the past three years. It is something that I rediscovered, not having read a lot for about ten years before that. After having finished the first five, I noticed a very clear need: I would love to be able to search through my highlights and revisit ideas from these books. This started my quest for a note-taking app. After watching quite a few videos and reading lots of articles, I settled for Obsidian. The reasons were quite simple. It is completely file-based, meaning if it would ever get discontinued, my notes and note structure would still be available on disk. It also uses markup, which I personally quite like. Finally, since it is file-based, it *should* be easily syncable through any cloud filesharing service.
 For anyone interested, I also considered Notion and Logseq. Notion seemed a little too complex or my taste. Logseq looked like Obsidian, just a little earlier in its journey, with a far smaller plugin landscape.
 
-## What is Obsidian?/Obsidian Overview
+## Obsidian Introduction - what is it?
 
 Let's dig a little deeper together. What exactly is Obsidian?
-Obsidian is a note taking app, which quite recently reached its first official stable version. A few of its very compelling high-level features: completely open source, file based, freely extensible through a plug-in ecosystem, uses markdown. You can use it for note-taking, but there is so much more to be done with it. Some people create to-do lists and task management systems with it, others have developed very sophisticated "second brains". Whatever you can imagine (and can be done with markdown ;)) is possible.
+Obsidian is a note taking app, which quite recently reached its first official stable version. A few of its very compelling high-level features: completely open source, file based, freely extensible through a plug-in ecosystem, uses markdown. You can use it for note-taking, but there is so much more to be done with it. Some people create to-do lists and task management systems with it, others have developed very sophisticated "second brains". Whatever you can imagine (and can be done with markdown) is possible.
 
 
 <Image src="vault.jpg" width="500" alt="Picture of Obsidian Vault" />
