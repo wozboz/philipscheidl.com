@@ -31,7 +31,7 @@ Finally, I came up with the following component list and schematic. Feel free to
 - TP4056 Battery Charger Module. Be careful to choose the one that can charge the battery and also power whatever component after it. There are ones that only charge the battery, that is not what you are looking for. [Here is a link to what I used.](https://www.amazon.de/gp/product/B08ZMRSPXX/)
 - A LM2596 DC/DC Buck Converter. Again, I used something generic off of Amazon.
 - A Battery Holder Case
-- An ESP8266 with integrated Wi-Fi. I used a Wemos D1 Mini NodeMCU
+- An ESP8266/Arduino with integrated Wi-Fi. I used a Wemos D1 Mini NodeMCU
 - A Channel Relay with Optocoupler
 - A 3,3V LDO
 - A 100μF Capacitator
@@ -172,7 +172,7 @@ I configured it as a switch, since that is basically it's functionality. The fol
 
 ```yaml
     switch:
-        #ESP Controller
+        #Arduino Controller
         - unique_id: garden_irrigation
 	      name: "Bewässerung"
 	      command_topic: "esp8266/pin"
@@ -232,4 +232,4 @@ And it actually worked! I did not have to bother our neighbors and the plants we
 
 ## Conclusion
 
-So overall, I have learned quite a few things with this project. Electronics, soldering, ESPs and MQTT make much more sense to me now. I have also learned that it is not *that* hard to make something yourself, according to your needs. It just takes a lot of research and trial and error. I have to be honest: I have not upgraded the project to solar power yet since it worked so well without it. I might do that next year. If it ever happens, I will write an Update. We'll see what the next project will be - self-built weather stations seem quite fun...
+So overall, I have learned quite a few things with this project. Electronics, soldering, ESPs, the Arduino IDE and MQTT make much more sense to me now. I have also learned that it is not *that* hard to make something yourself, according to your needs. It just takes a lot of research and trial and error. I have to be honest: I have not upgraded the project to solar power yet since it worked so well without it. I might do that next year. If it ever happens, I will write an Update. We'll see what the next project will be - self-built weather stations seem quite fun...
