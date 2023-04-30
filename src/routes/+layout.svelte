@@ -8,15 +8,11 @@
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 	inject({ mode: dev ? 'development' : 'production' });
-	import "@fontsource/roboto";
+	import "@fontsource/roboto/400.css";
+	import "@fontsource/roboto/700.css"
+	import "@fontsource/lato";
 	export let data;
 </script>
-
-<style>
-	main {
-		font-family: "Roboto", sans-serif;
-	}
-</style>
 
 <div class="homepagecontainer">
 		<Header />

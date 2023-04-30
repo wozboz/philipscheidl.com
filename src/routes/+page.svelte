@@ -15,7 +15,7 @@
 <div bind:clientHeight={y}>
 	<div class="flex welcomediv">
 		<Sidebar y={y}/>
-		<h2>Hi, I'm <span class="nameanimation">Philip.</span></h2>
+		<h2 class="greeting">Hi, I'm <span class="nameanimation">Philip.</span></h2>
 		<br />
 		<img class="round drawing" alt="drawing of philip" src="philip_large.jpg" />
 		<br />

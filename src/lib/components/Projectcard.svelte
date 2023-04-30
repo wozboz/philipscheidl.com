@@ -8,8 +8,8 @@
 <div class="blogpostcard">
     <div class="projectimage"></div>
     <div class="blogcontentcontainer">
-        <h1>{projecttitle}</h1>
-        <h2>{projectdate}</h2>
+        <h2>{projecttitle}</h2>
+        <h3>{projectdate}</h3>
         <p>{projectdescription}</p>
         <h3 class="hovereffect readmore"><a class="disable" href={projectlink}>Read More</a></h3>
     </div>

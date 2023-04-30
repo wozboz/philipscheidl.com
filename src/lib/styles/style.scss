@@ -15,6 +15,26 @@ body {
     // display: flex;
     // justify-content: center;
     overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: normal;
+}
+
+.greeting {
+  font-size: 40px;
 }
 
 .layer {
@@ -67,7 +87,6 @@ body {
 
 .nameanimation {
   --b: 0.1em;   /* the thickness of the line */
-  
   color: var(--highlights);
   padding-block: var(--b);
   background: 
@@ -83,15 +102,6 @@ body {
   --_s: .3s;
 }
 
-h2 {
-  font-size: xx-large;
-  font-weight: 600;
-}
-
-h1 {
-  font-size:xx-large;
-  font-weight: 600;
-}
 
 a:not(.disable):hover {
   color: var(--highlights);
@@ -250,13 +260,15 @@ a:not(.disable):hover {
 .blogcontentcontainer {
   padding: 2rem 2rem;
   color: black;
-  h1 {
-    text-align: justify;
-  };
+  
+  h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
   p {
-    margin-top: 1rem;
     text-align: justify;
-    margin-bottom: 3rem;
   };
   .hovereffect {
     --height: 1em;   
@@ -293,6 +305,7 @@ a:not(.disable):hover {
 
 .hpheadline {
   margin-top: 10%;
+  font-size: 50px;
 }
 
 .flexboxtitle {
@@ -340,16 +353,18 @@ a:not(.disable):hover {
 
   p {
     margin-top: 5px;
-    line-height: 1.5em;
-    font-size: 1.11em;
+    line-height: 29px;
+    font-size: 18px;
     text-align: left;
+    font-family: "Lato", sans-serif;
   }
 
   ul {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
     margin: auto;
-    font-size: 1.05em;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
     li {
       margin-top: 5px;
       text-align:left;
