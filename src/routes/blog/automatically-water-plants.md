@@ -1,13 +1,13 @@
 ---
-title: How I automatically water my plants - with Home Assistant and an ESP8266
+title: How I automatically water my plants - with Home Assistant and an Arduino
 date: "2023-01-08"
-postdescription: "Before going on vacation, I decided to tackle my problem of automatic watering once and for all. Soldering, ESPs and other fun stuff ahead!"
+postdescription: "Before going on vacation, I decided to tackle my problem of automatic watering once and for all. Soldering, Arduinos and other fun stuff ahead!"
 categories:
     - "Home Automation"
 ---
 <script>import Image from "svimg";</script>
 
-<meta name="description" content="A blog post about how to create your own garden irrigation system to automatically water your plants, based on Home Assistant, MQTT and an ESP8266">
+<meta name="description" content="A blog post about how to create your own garden irrigation system to automatically water your plants, based on Home Assistant, MQTT and an Arduino">
 
 My girlfriend and I had a 16 day vacation coming up, and I stood in front of a problem: what do I do with the plants on our balcony? You could either bother someone with the task of watering them at least once daily - or you could automate it. That second thought spoke much more to my inner nerd, and it seemed like a good project to take on. Of course, I could have gone the easy route and just bought some pre-built system, but they lacked a few things that were essential to me:
 - Integration with Home Assistant
