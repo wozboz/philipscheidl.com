@@ -9,7 +9,7 @@
 
 <svelte:head>
 	<title>Home - philipscheidl.com - Philip Scheidl</title>
-	<meta name="description" content="Philip Scheidl - Blogposts about all kind ofs things - Home Automation, Programming, and much more.">
+	<meta name="description" content="Philip Scheidl - Blogposts about all kind of things - Home Automation, Programming, and much more.">
 </svelte:head>
 
 <div bind:clientHeight={y}>
