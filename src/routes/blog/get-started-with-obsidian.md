@@ -105,8 +105,9 @@ For formatting your notes, here is a list of Markdown Syntax and commands that I
 - Metadata can be added manually
 - \--- triple dashes create a line separator
 - \`\`\` triple high comma formats your text as ```code```
-	- If you put a programming language after the high commas, you get correct syntax highlighting, e.g. ```javascript test```
+- If you put a programming language after the high commas, you get correct syntax highlighting, e.g. ```javascript test```
 
+---
 
 - cmd + E to see preview of note
 - cmd + P for command menu
