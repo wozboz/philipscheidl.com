@@ -1,4 +1,4 @@
-@import "./scssutils/breakpoints.scss";
+@use "scssutils/breakpoints.scss";
 
 html {
   --primary-color: rgb(20, 40, 80);
@@ -50,7 +50,7 @@ h2 {
 }
 
 .sidebar {
-  @include sm {
+  @include breakpoints.sm {
     display: none;
     visibility: hidden;
   }

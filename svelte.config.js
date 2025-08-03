@@ -1,5 +1,5 @@
 import { mdsvex } from 'mdsvex'
-import sveltePreprocess from 'svelte-preprocess'
+import {sveltePreprocess} from 'svelte-preprocess'
 import autoprefixer from 'autoprefixer'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
