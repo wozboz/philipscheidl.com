@@ -5,7 +5,7 @@ postdescription: "How I redesigned my desk to be more productive, according to e
 categories:
     - "Productivity"
 ---
-<script>import Image from "svimg";</script>
+
 <meta name="description" content="How I redesigned my desk, with environmental design in mind. ">
 
 ## Intro
@@ -75,7 +75,7 @@ I found a few things that a lot of people were using on their desks, but did not
 
 So after completing all of the steps mentioned before and buying things over time, here's how my setup looks at the moment:
 
-<Image src="desk_photo.jpg" width="500" alt="Image of my desk setup" />
+<img src="/blog/desk_photo.jpg" width="500" alt="Image of my desk setup" />
 
 I will try to take better pictures soon, as you can see the space is pretty small.
 

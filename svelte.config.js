@@ -4,8 +4,6 @@ import autoprefixer from 'autoprefixer'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
 import adapter from '@sveltejs/adapter-auto'
-import {vitePreprocess} from '@sveltejs/kit/vite'
-import { imagePreprocessor } from 'svimg'
 
 
 const config = {
@@ -24,13 +22,6 @@ const config = {
 				rehypeAutolinkHeadings,
 			],
 		}),
-		imagePreprocessor({
-			inputDir: "static/blog",
-			outputDir: "static/blog/optimized",
-			webp: true,
-			avif: true,
-		}),
-		vitePreprocess(),
 	],
 	kit: {
 		adapter: adapter(),

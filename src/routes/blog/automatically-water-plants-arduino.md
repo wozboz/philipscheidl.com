@@ -5,7 +5,6 @@ postdescription: "Before going on vacation, I decided to tackle my problem of au
 categories:
     - "Home Automation"
 ---
-<script>import Image from "svimg";</script>
 
 <meta name="description" content="A blog post about how to create your own garden irrigation system to automatically water your plants, based on Home Assistant, MQTT and an Arduino">
 
@@ -43,7 +42,7 @@ Finally, I came up with the following component list and schematic. Feel free to
 
 ### Schematic
 
-<Image src="schematic.jpeg" alt="Schematic of circuit with solar power" width=750/>
+<img src="/blog/schematic.jpeg" alt="Schematic of circuit with solar power" width=750/>
 
 ## Execution of the project
 
@@ -51,7 +50,7 @@ Finally, I came up with the following component list and schematic. Feel free to
 
 After I drew the schematic in theory and had assembled all the parts I thought I needed, I first tried to set up a working prototype of the ESP opening and closing the magnetic valve. I used a breadboard and some cables I had lying around from an Arduino starter kit. I also used a 12V power supply to make the testing easier. The end result was what you are seeing in the picture. 
 
-<Image src="view_top_breadboard.jpeg" alt="Breadboard with components connected through cables" width=750/>
+<img src="/blog/view_top_breadboard.jpeg" alt="Breadboard with components connected through cables" width=750/>
 
 I used the [Arduino Blink starter program](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink)  to test it out. All it does is send current out of a digital pin in a set interval.
 
@@ -162,7 +161,7 @@ Now that the Wemos was ready, there was still the challenge of integrating it in
 
 I was already using MQTT components in my setup, which is why I already hat the Mosquitto Broker installed. With it, you can test mqtt integrations very easily, as described in [this useful article.](https://www.home-assistant.io/integrations/mqtt/#testing-your-setup) You can go to Settings -> Devices & Services -> Configure on the Mosquitto tile.
 
-<Image src="mqtt_settings_1.png" alt="MQTT settings in Home" width=750/>
+<img src="/blog/mqtt_settings_1.png" alt="MQTT settings in Home" width=750/>
 
 I then configured the topic to publish to as "esp8266/pin" and published the message "on". The testing setup I used was the same breadboard setup I have described a little further up. Again, this worked on the first try. Publishing a message of "on" made the relay click and opened up the valve, publishing a message of "off" did the opposite.
 
@@ -191,9 +190,9 @@ Finally, for this to water the plants, we need some kind of automation. I opted 
 
 Here is the quick overview of these two automations:
 
-<Image src="HA_Automation_on.png" width="500" alt="Home Assistant Automation settings" />
+<img src="/blog/HA_Automation_on.png" width="500" alt="Home Assistant Automation settings" />
 
-<Image src="HA_Automation_off.png" width="500" alt="Board with components soldered on" />
+<img src="/blog/HA_Automation_off.png" width="500" alt="Board with components soldered on" />
 
 Since everything I tested up until that point worked out, I was ready to solder components together for a "final build" of the project.
 
@@ -203,15 +202,15 @@ To be honest, I had never soldered anything together before. I bought a starter 
 
 What I felt was a very good decision was to solder the pin headers on the board, so that I could change out the ESP in case it broke or breaks in the future, as you can see on the pictures.
 
-<Image src="view_top_soldered_board.jpeg" width="500" alt="Board with components soldered on" />
+<img src="/blog/view_top_soldered_board.jpeg" width="500" alt="Board with components soldered on" />
 
-<Image src="view_top_soldered_board_2.jpeg" width="500" alt="Board with components soldered on" />
+<img src="/blog/view_top_soldered_board_2.jpeg" width="500" alt="Board with components soldered on" />
 
 The Wemos just clips into it, which is very convenient.
 
 The end result of the soldering is a wild mess of cables that I fit into a waterproof enclosure I bought at the hardware store.
 
-<Image src="view_top_enclosure.jpeg" width="500" alt="Board with components soldered on" />
+<img src="/blog/view_top_enclosure.jpeg" width="500" alt="Board with components soldered on" />
 
 The orange enclosures were 3D printed to at least have some semblance of order in the enclosure, and to avoid possible short-circuits.
 
