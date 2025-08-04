@@ -224,7 +224,7 @@ Unfortunately, it seemed that the solar panel was enough to power the Arduino, b
 
 I did not have much time left before our trip, so I needed to improvise. The solution was pretty simple: use the power supply. I just had the cable go through our balcony door and into the waterproof enclosure. That gave me the possibility to water the plants for our holidays. 
 
-	<Image src="outside_valve.jpeg" width="300" alt="Board with components soldered on" />
+	<img src="outside_valve.jpeg" width="300" alt="Board with components soldered on" />
 
 
 And it actually worked! I did not have to bother our neighbors and the plants were happy after our return.

@@ -9,7 +9,7 @@ categories:
 
 <meta name="description" content="An Obsidian introduction and guide on how to get started using it.">
 
-<img src="/blog/obsidian_titleview.jpg" width="500" alt="Image of an Obsidian Vault and a Graph representation" />
+<img src="/blog/obsidian_titleview.jpg" width="500" alt="An Obsidian Vault and a Graph representation" />
 
 I have been reading quite a lot of books for the past three years. It is something that I rediscovered, not having read a lot for about ten years before that. After having finished the first five, I noticed a very clear need: I would love to be able to search through my highlights and revisit ideas from these books. This started my quest for a note-taking app. After watching quite a few videos and reading lots of articles, I settled for Obsidian. The reasons were quite simple. It is completely file-based, meaning if it would ever get discontinued, my notes and note structure would still be available on disk. It also uses markup, which I personally quite like. Finally, since it is file-based, it *should* be easily syncable through any cloud filesharing service.
 For anyone interested, I also considered Notion and Logseq. Notion seemed a little too complex or my taste. Logseq looked like Obsidian, just a little earlier in its journey, with a far smaller plugin landscape.
@@ -20,12 +20,12 @@ Let's dig a little deeper together. What exactly is Obsidian?
 Obsidian is a note taking app, which quite recently reached its first official stable version. A few of its very compelling high-level features: completely open source, file based, freely extensible through a plug-in ecosystem, uses markdown. You can use it for note-taking, but there is so much more to be done with it. Some people create to-do lists and task management systems with it, others have developed very sophisticated "second brains". Whatever you can imagine (and can be done with markdown) is possible.
 
 
-<img src="/blog/vault.jpg" width="500" alt="Picture of Obsidian Vault" />
+<img src="/blog/vault.jpg" width="500" alt="Obsidian Vault" />
 
 Obsidian stores its data in so-called vaults, which are basically main folders for a collection of notes. Theses notes have a system of tags and links so that you can get your notes linked together and potentially create new ideas based on that. The program draws a graph with these tags, which can get pretty interesting, especially when you have more notes in your vault. It has a mobile app as well, which is great for jotting down thoughts on the go. I personally sync it through iCloud and it works perfectly, even though I have read that others have had problems with it. I have also used iCloud to sync to all other devices (e.g. my windows desktop PC), so that I have access when I need it.
 As mentioned, Obsidian is an open platform, so there is a lot of developer activity around it. There are integrations for lots of other tools, for example Todoist or Readwise. The catalogue is huge, at the time of this blogpost, it lists 847 different plugins.
 
-<img src="/blog/Obsidian_Plugins.jpg" width="500" alt="Picture of the number of Obsidian Plugins, sitting at 847" />
+<img src="/blog/Obsidian_Plugins.jpg" width="500" alt="Total Number of Obsidian Plugins, sitting at 847" />
 
 My absolute favorite thing about Obsidian is how I can search for things and quickly find them. I basically use it as an extension of my brain. I try (and do not always succeed) to note everything down that may be useful, for example some information out of a YouTube video. Work-processes that I do not use often will also get noted down. Since using Obsidian, my research time for things like these is now considerably shorter.
 
@@ -55,7 +55,7 @@ The next step would be to get some templates to use with obsidian, for example f
 
 Now, let's open up the settings in the bottom left and go over two points that I have found useful. 
 
-<img src="/blog/settings.jpg" width="500" alt="Picture of Obsidian settings" />
+<img src="/blog/settings.jpg" width="500" alt="Obsidian settings" />
 
 In the Files & Links settings, I have set deleted notes to go into the trash of obsidian. I prefer this because it gives me a central point for deleted notes, instead of having them mixed in with other things I delete.
 
@@ -63,7 +63,7 @@ I have also set the default location for new attachments setting to "subfolder u
 
 ## Plugins
 
-<img src="/blog/plugins.jpg" width="500" alt="Picture of the Obsidian plugins used by author of the site" />
+<img src="/blog/plugins.jpg" width="500" alt="Obsidian plugins used by author of the site" />
 
 ### Core Plugins
 

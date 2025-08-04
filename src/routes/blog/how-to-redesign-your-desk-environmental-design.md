@@ -75,7 +75,7 @@ I found a few things that a lot of people were using on their desks, but did not
 
 So after completing all of the steps mentioned before and buying things over time, here's how my setup looks at the moment:
 
-<img src="/blog/desk_photo.jpg" width="500" alt="Image of my desk setup" />
+<img src="/blog/desk_photo.jpg" width="500" alt="A desk set up neatly for productivity" />
 
 I will try to take better pictures soon, as you can see the space is pretty small.
 
